@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="./styles/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Blog - Destinations</title>
@@ -10,32 +11,42 @@
 <body>
     <!--Navigation Menu-->
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="destinations.html">Destinations</a></li>
-            <li>Photo Gallery</li>
-            <li><a href="mailto:chunyan.mo@edu.sait.ca">Contact Me</a></li>
+        <ul class="flexbox-element">
+            <li class="mainmenu"><a href="index.html">Home</a></li>
+            <li class="mainmenu"><a href="about.html">About Me</a></li>
+            <li class="mainmenu"><a href="destinations.html">Destinations</a></li>
+            <li class="mainmenu">Photo Gallery</li>
+            <li class="mainmenu"><a href="mailto:chunyan.mo@edu.sait.ca">Contact Me</a></li>
         </ul>
     </nav>
     <!--Content-->
 
     <h1>My Favorite Travel Destinations</h1>
     <h2>1. Paris, France</h2>
-    <img src="EiffelTower.jpg" alt="Eiffel Tower in Paris" height="300">
+    <center>
+        <img src="EiffelTower.jpg" alt="Eiffel Tower in Paris" height="450">
+    </center>
+
     <p>Paris is known as the <span style="border: 2px solid black;">city of love</span>, famous for its architecture,
         cafes, and art.</p>
     <h2>2. Tokyo, Japan</h2>
-    <img src="CherryBlossoms.jpg" alt="Cherry Blossoms in Japan" height="300">
+    <center>
+        <img src="CherryBlossoms.jpg" alt="Cherry Blossoms in Japan" height="450">
+    </center>
+
     <p>Tokyo offers a unique mix of <span style="border: 2px solid black;">modern skyscrspers</span> and traditional
         temples.</p>
     <h3>Top Attractions in Japan</h3>
-    <ol>
-        <li>Mount Fuji</li>
-        <li>Shibuya Crossing</li>
-        <li>Kyoto Temples</li>
-    </ol>
-<br>
+       <!--Ordered List-->
+    <div style="display: flex;justify-content: center;">
+        <ol style="text-align: left;color" >
+            <li>Mount Fuji</li>
+            <li>Shibuya Crossing</li>
+            <li>Kyoto Temples</li>
+        </ol>
+    </div>
+   
+    <br>
     <p><a href="index.html">← Back to Home</a></p>
 </body>
 
