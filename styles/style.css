@@ -126,3 +126,17 @@ nav {
     top: 0;
     z-index: 100;
 }
+
+#buttonCounter {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:peru;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#counter {
+    font-size: 18px;
+    margin-top: 10px;
+}
